@@ -67,7 +67,6 @@ print('함수밖 const : ', const);  # let는 'global' 키워드를 사용해서
 print();print()
 print("=== 변수의 범위" , "="* 60)
 #  - 새로운 지역변수가 만들어 질수있는 영역은 함수내부, 클래스내부, 모듈내부 이다.
-#  - if, for, while, with , try ~ except 블록 등은 새로운 변수를 만들지 못한다.
 
 genLet = '전역변수'
 def fnGenLetScope() :
@@ -76,6 +75,7 @@ def fnGenLetScope() :
 
     for i in range(3) :
         genLet = 'for 지역변수'
+        aaa = ''
         print(genLet , '\t[fnGenLetScope for문에서 출력]') # 'for 지역변수'
 
     if True :
