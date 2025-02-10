@@ -14,6 +14,7 @@ print("=== 내장함수 " , "="* 60)
 # ■ 3.* Ver 파이썬에는 모두 69개의 내장 함수를 제공하고있다.
 #    refUrl = https://docs.python.org/ko/3.9/library/functions.html
 
+print();print()
 print("=== 내장함수 abs()" , "="* 60)
 # - abs()는 절대값을 구해주는 함수이다.
 # - abs()는 하나의 인수만 요구하는 함수이다.
