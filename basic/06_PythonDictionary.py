@@ -59,6 +59,11 @@ opntDev1Dept["사원9"] = "김승현"                               # 항목추�
 print('opntDev1Dept[사원9] : ', opntDev1Dept["사원9"])         # 김승현
 print('opntDev1Dept : ', opntDev1Dept)
 
+# Dict Keys Base Foreach
+for key in opntDev1Dept.keys() :
+    print("opntDev1Dept[",key,"] : ", opntDev1Dept[key])
+
+
 print();print()
 print("=== Dict 삭제/제거 " , "="* 60)
 # Dictionary(사전)에서 값을 삭제하는 방법은 관련메서드와 "del"문을 이용하는 방법이 있다.
