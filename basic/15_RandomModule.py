@@ -48,3 +48,4 @@ print("=== 실수를 구성한 난수 만들기  " , "="* 60)
 
 print("random.random : ", random.random())
 print("random.uniform : ", random.uniform(0, 10))
+
