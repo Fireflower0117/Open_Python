@@ -145,6 +145,7 @@ class Robot :
     ''' 가장 심플한 클래스'''
 
     def fnSayHello(self):
+        ''' 가장 심플한 클래스의 fnSayHello 함수'''
         pass
 
 ver1Robot = Robot()
@@ -156,10 +157,12 @@ ver2Robot.name = "Hubo 2 Plus"
 ver2Robot.Birth = "2025.02.14"
 
 print(ver1Robot.__doc__)   # Class Description 조회할때
+print(ver1Robot.fnSayHello.__doc__)   # Class function Description 조회할때
 print(ver1Robot.__dict__)  # Class 속성들 값 조회 (함수 는 조회되지 않는다)
 print("ver1Robot.name : ", ver1Robot.name, ", ver1Robot.weight : ",ver1Robot.weight)
 print("------")
 print(ver2Robot.__doc__)  # Class Description 조회할때
+print(ver2Robot.fnSayHello.__doc__)   # Class function Description 조회할때
 print(ver2Robot.__dict__) # Class 속성들 값 조회 (함수 는 조회되지 않는다)
 print("ver2Robot.name : ", ver2Robot.name, ", ver2Robot.Birth : ",ver2Robot.Birth)
 print("------")
